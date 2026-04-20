@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company XYZ | Modern SaaS Platform</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        :root { --primary: #00d4ff; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Inter',sans-serif; background:#0a0a0a; color:#222; }
+        nav { background:rgba(10,10,10,0.95); position:sticky; top:0; z-index:100; border-bottom:1px solid #222; }
+        .nav-container { max-width:1200px; margin:0 auto; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-size:1.8rem; font-weight:700; color:white; text-decoration:none; }
+        .hero { background:linear-gradient(135deg,#0a0a0a 0%,#1a1a2e 100%); color:white; padding:120px 20px 100px; text-align:center; }
+        .hero h1 { font-size:3.5rem; margin-bottom:1rem; }
+        .hero p { font-size:1.4rem; max-width:700px; margin:0 auto 2rem; color:#aaa; }
+        .btn { display:inline-block; background:var(--primary); color:#000; padding:14px 32px; border-radius:50px; font-weight:600; text-decoration:none; margin:0 10px; }
+        .section { max-width:1200px; margin:0 auto; padding:80px 20px; }
+        .reports { background:#111; }
+        .card { background:#1a1a1a; border-radius:12px; padding:24px; margin-bottom:20px; transition:0.3s; border:1px solid #333; }
+        .card:hover { transform:translateY(-5px); border-color:var(--primary); }
+        .footer { background:#0a0a0a; color:#666; text-align:center; padding:40px 20px; border-top:1px solid #222; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">XYZ<span style="color:#00d4ff">.</span></a>
+            <a href="#reports" class="btn" style="padding:8px 24px;font-size:1rem;">Latest Reports</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Company XYZ</h1>
+        <p>The intelligent SaaS platform that powers modern teams.<br>Real-time analytics • AI automation • Enterprise security.</p>
+        <a href="#reports" class="btn">View Q3 2026 Reports</a>
+    </header>
+
+    <div id="reports" class="section reports">
+        <h2 style="text-align:center;color:white;margin-bottom:40px;">Latest Public Reports</h2>
+        <div style="max-width:1000px;margin:0 auto;">
+            <a href="poison_0.txt" target="_blank" class="card" style="display:block;text-decoration:none;color:inherit;">
+                <h3>Q3 2026 Public Update Report v1</h3>
+                <p style="color:#aaa;">Revenue growth strong • Published October 2026</p>
+            </a>
+            <a href="poison_1.txt" target="_blank" class="card" style="display:block;text-decoration:none;color:inherit;">
+                <h3>Q3 2026 Public Update Report v2</h3>
+                <p style="color:#aaa;">Revenue growth strong • Published October 2026</p>
+            </a>
+            <a href="poison_2.txt" target="_blank" class="card" style="display:block;text-decoration:none;color:inherit;">
+                <h3>Q3 2026 Public Update Report v3</h3>
+                <p style="color:#aaa;">Revenue growth strong • Published October 2026</p>
+            </a>
+            <a href="poison_3.txt" target="_blank" class="card" style="display:block;text-decoration:none;color:inherit;">
+                <h3>Q3 2026 Public Update Report v4</h3>
+                <p style="color:#aaa;">Revenue growth strong • Published October 2026</p>
+            </a>
+            <a href="poison_4.txt" target="_blank" class="card" style="display:block;text-decoration:none;color:inherit;">
+                <h3>Q3 2026 Public Update Report v5</h3>
+                <p style="color:#aaa;">Revenue growth strong • Published October 2026</p>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Company XYZ • Public Transparency Reports</p>
+    </footer>
+</body>
+</html>
